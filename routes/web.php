@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return ['Laravel' => app()->version()];
+    return "welcome to flylive please visit https://flylive.netlify.app/auth/register";
 });
 
 //require __DIR__.'/auth.php';
